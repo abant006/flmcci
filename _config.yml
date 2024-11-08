@@ -1,4 +1,4 @@
-# Build settings
+# Build settings in main config file
 plugins:
   - jemoji
   - jekyll-paginate
