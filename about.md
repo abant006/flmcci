@@ -2,6 +2,8 @@
 layout: page
 title: Who is flmcci?
 permalink: /about/
+image: https://res.cloudinary.com/dzr37z305/image/upload/v1731112864/000367780035_ndrkr6.jpg
+me: assets/images/000092950014.jpg
 ---
 
 Hey!
@@ -17,4 +19,4 @@ Until now, I have been uploading a few of my shots on my Instagram, but I realiz
 
 So, that leads us here! I'm extremely excited to share ALL (if _all_ can be retrieved) of my photos on here, and I can't wait to see where the future takes me!
 
-[flmcci](assets/images/000092950014.jpg)
+![]({{ page.me | relative_url }})
