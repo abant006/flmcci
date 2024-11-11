@@ -47,3 +47,8 @@ social:
     share_url: ""
     share_title: ""
     share_link: ""
+
+# jekyll-tagging. Defines the layout used to generate tag pages
+# this will look for _layouts/tag_page.html and use it to generate tag pages into the _site/tag directory
+tag_page_layout: tag_page
+tag_page_dir: tag

@@ -14,7 +14,7 @@ My journey in photography started back in 2021, when I inherited my mom's old Pe
 
 Over the years, I’ve shot with a couple of Ricoh KR-5s, a Canon Sureshot Zoom 85, and now, my Fujifilm X-T3! Even though I don't shoot film all the time (or much anymore), I couldn't part with my original photography name—it’s a part of where this all started.
 
-Until now, I've mostly shared my work on Instagram, but I found myself wanting to dive deeper into the stories and moments behind each shot. So, I decided to create this blog to give a bit more context and share the full experience behind my photos.
+Until now, I've mostly shared my work on Instagram, but I found myself wanting to dive deeper into the _stories and moments behind each shot_. So, I decided to create this blog to give a bit more context and share the full experience behind my photos.
 
 That brings us here! I'm excited to share my photography with you and to see where this creative path leads. Thanks for being part of it!
 
