@@ -1,17 +1,20 @@
 ---
 layout: page
-title: About
+title: Who is flmcci?
 permalink: /about/
 ---
 
-A medium inspired Jekyll blog theme. The basic idea came from the Ghost theme 
-[Readium 2.0](http://www.svenread.com/readium-ghost-theme/). I use mediator on my own blog [The Base](blog.base68.com).
+Hey!
 
-You can **download** the theme here:
-[https://github.com/dirkfabisch/mediator](https://github.com/dirkfabisch/mediator) 
+Thanks for taking taking the time to check out my photography blog. 
+Some of you may know me by my real name, Aaron, my Instagram name aaucci, or my photography name **flmcci**.
 
-You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+My photography journey started back in 2021, when I inherited my Mom's old Pentax film camera. From there, it was all about a journey of fun and learning.
 
-You can find the source code for the Jekyll new theme at: [github.com/jglovier/jekyll-new](https://github.com/jglovier/jekyll-new)
+Between 2021 and now, I've used two Ricoh KR-5's, a Canon Sureshot Zoom 85, and now, a Fujifilm X-T3! Although, I may not shoot film on a consistent basis, I felt too attached to my photography name to give it up.
 
-You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
+Until now, I have been uploading a few of my shots on my Instagram, but I realized I was sort of dismissing that _thought behind the shot_, and figured I might as well make a blog and be more intimate regarding my photos and the experiences behind not just those shots but the experience behind them.
+
+So, that leads us here! I'm extremely excited to share ALL (if _all_ can be retrieved) of my photos on here, and I can't wait to see where the future takes me!
+
+[flmcci](assets/images/000092950014.jpg)
