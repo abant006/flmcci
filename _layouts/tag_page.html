@@ -1,13 +1,54 @@
 ---
 layout: default
 ---
-<h2>{{ page.tag }}</h2>
-<ul>
-{% for post in page.posts %}
-  <li><a href="{{ post.url }}">{{ post.title }}</a> ({{ post.date | date_to_string }} | Tags: {{ post | tags }})</li>
-{% endfor %}
-</ul>
+<!DOCTYPE html>
+<html>
+  {% include head.html %}
+  <body>
+    {% include header.html %}
+    
+    <main class="content" role="main">
+        <h1 class="tag-title"><i>{{ page.tag }}</i></h1>
+        
+        <section class="tag-post-list">
+          {% if page.posts %}
+            <ul class="tag-list">
+              {% for post in page.posts %}
+                <li class="tag-post-item">
+                  <a href="{{ post.url | prepend: site.baseurl }}" class="tag-post-link">
+                    <h2 class="tag-post-title">{{ post.title }}</h2>
+                  </a>
+                  <p class="post-meta">
+                    <time datetime="{{ post.date | date_to_long_string }}">{{ post.date | date_to_long_string }}</time>
+                    | Tags: <span id="color-gray">{{ post | tags }}</span> 
+                  </p>
+                </li>
+              {% endfor %}
+            </ul>
+          {% else %}
+            <p>No posts found for this tag.</p>
+          {% endif %}
+        </section>
 
-<div id="tag-cloud">
-  {{ site | tag_cloud }}
-</div>
+        <div class="tag-cloud-container">
+          <h3>Check out these other tags!</h3>
+          <div id="tag-cloud">
+            {{ site | tag_cloud }}
+          </div>
+        </div>
+    </main>
+
+    <div class="bottom-closer">
+      <div class="background-closer-image" {%if site.cover %} style="background-image: url({{ site.cover }})"{% endif %}>
+        Image
+      </div>
+      <div class="inner">
+        <h1 class="blog-title">{{ site.title }}</h1>
+        <h2 class="blog-description">{{ site.description }}</h2>
+        <a href="{{ '/' | prepend: site.baseurl }}" class="btn">Back to Overview</a>
+      </div>
+    </div>
+
+    {% include javascripts.html %}
+  </body>
+</html>
